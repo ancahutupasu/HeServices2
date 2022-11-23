@@ -43,6 +43,7 @@
             android:layout_height="155dp"
             app:srcCompat="@drawable/ic_baseline_rate_review_24" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/linearLayout14"
         android:layout_width="127dp"
