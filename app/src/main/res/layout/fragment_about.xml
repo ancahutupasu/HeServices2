@@ -1,10 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="109dp"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203">
 
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="96dp"
+            android:layout_height="42dp"
+            android:text="ABOUT"
+            android:textSize="24sp" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447">
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="174dp"
+            android:layout_height="80dp"
+            android:text="We are a transport company with trustworthy drivers. We deliver all over the europe." />
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="171dp"
+            android:layout_height="35dp"
+            android:text="We started the company in 2009." />
+
+        <TextView
+            android:id="@+id/located"
+            android:layout_width="176dp"
+            android:layout_height="35dp"
+            android:text="We are located in Nørresundby, Stationsvej 31 Aalborg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="142dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="160dp"
+            android:layout_height="118dp"
+            app:srcCompat="@mipmap/hs" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

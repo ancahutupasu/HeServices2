@@ -43,7 +43,14 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         appBarConfiguration=new AppBarConfiguration.Builder(
                 R.id.nav_home,
-                R.id.call
+                R.id.call,
+                R.id.nav_about,
+                R.id.nav_contact,
+                R.id.nav_delivery,
+                R.id.nav_feedback,
+                R.id.nav_review,
+                R.id.nav_services,
+                R.id.nav_settings
         )
                 .setOpenableLayout(drawerLayout)
                 .build();
