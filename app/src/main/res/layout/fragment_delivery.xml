@@ -54,8 +54,8 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="215dp"
-            android:layout_height="91dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="We deliver all over europe within the given time. So if you are interested to send parcels with maximum weight of 1000kg, let us know. We would be happy to help you." />
     </LinearLayout>
 

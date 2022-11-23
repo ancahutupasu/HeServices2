@@ -6,168 +6,188 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="180dp"
-        android:layout_height="64dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149">
-
-        <TextView
-            android:id="@+id/contact_us"
-            android:layout_width="163dp"
-            android:layout_height="40dp"
-            android:text="CONTACT US"
-            android:textSize="24sp" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout7"
-        android:layout_width="221dp"
-        android:layout_height="82dp"
+        android:layout_width="269dp"
+        android:layout_height="34dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.274">
+        app:layout_constraintVertical_bias="0.14">
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_width="199dp"
-            android:layout_height="match_parent"
-            android:text="If you have any questions you can contact us any time. We are here for you " />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can contact us any time. "
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout8"
-        android:layout_width="109dp"
-        android:layout_height="89dp"
-        android:orientation="horizontal"
+        android:id="@+id/linearLayout6"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417">
+        app:layout_constraintVertical_bias="0.206">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="89dp"
-            android:layout_height="81dp"
-            app:srcCompat="@drawable/ic_baseline_tag_faces_24" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="191dp"
+            android:layout_height="31dp"
+            android:text="We are here for you !"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout9"
-        android:layout_width="185dp"
-        android:layout_height="32dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534">
-
-        <TextView
-            android:id="@+id/email1"
-            android:layout_width="155dp"
-            android:layout_height="38dp"
-            android:text="info@hs-services.dk" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout10"
         android:layout_width="143dp"
-        android:layout_height="48dp"
+        android:layout_height="36dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622">
+        app:layout_constraintVertical_bias="0.434">
 
         <TextView
-            android:id="@+id/phone1"
-            android:layout_width="134dp"
-            android:layout_height="30dp"
-            android:text="+4531222222" />
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="info@hs-services.dk" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="85dp"
-        android:layout_height="82dp"
+        android:id="@+id/linearLayout8"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77">
+        app:layout_constraintVertical_bias="0.357">
 
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="97dp"
-            android:layout_height="65dp"
-            app:srcCompat="@drawable/ic_baseline_tag_faces_24" />
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/ic_baseline_email_24" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="139dp"
-        android:layout_height="49dp"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868">
-
-        <TextView
-            android:id="@+id/phone2"
-            android:layout_width="116dp"
-            android:layout_height="29dp"
-            android:text="+4511111111" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="96dp"
-        android:layout_height="88dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.847"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768">
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="97dp"
-            android:layout_height="70dp"
-            app:srcCompat="@drawable/ic_baseline_tag_faces_24" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="140dp"
-        android:layout_height="49dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.985"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868">
+        app:layout_constraintVertical_bias="0.814">
 
         <TextView
             android:id="@+id/textView6one3"
-            android:layout_width="142dp"
-            android:layout_height="36dp"
-            android:text="+451111111" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+4571XXXXXX" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="104dp"
+        android:layout_height="33dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816">
+
+        <TextView
+            android:id="@+id/phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+4531XXXXXX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="106dp"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811">
+
+        <TextView
+            android:id="@+id/phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+4546XXXXXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_call_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="58dp"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="24dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/location_ppin" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Stationsvej 31, 9400 Nørresundby"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

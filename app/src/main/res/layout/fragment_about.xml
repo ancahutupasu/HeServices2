@@ -8,68 +8,79 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="191dp"
-        android:layout_height="90dp"
+        android:layout_width="251dp"
+        android:layout_height="96dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203">
+        app:layout_constraintVertical_bias="0.099">
 
         <TextView
             android:id="@+id/about"
-            android:layout_width="174dp"
+            android:layout_width="match_parent"
             android:layout_height="78dp"
-            android:text="ABOUT US"
+            android:text="HeServices is..."
             android:textSize="34sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="330dp"
-        android:layout_height="178dp"
+        android:layout_width="338dp"
+        android:layout_height="191dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425">
+        app:layout_constraintVertical_bias="0.368">
 
         <TextView
             android:id="@+id/main_text"
-            android:layout_width="318dp"
-            android:layout_height="80dp"
-            android:text="We are a transport company with trustworthy drivers. We deliver all over the europe." />
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="...a transport company with trustworthy drivers."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="...delivering all over the Europe."
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/start"
-            android:layout_width="316dp"
-            android:layout_height="35dp"
-            android:text="We started the company in 2009." />
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="...opened in 2009."
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/located"
-            android:layout_width="314dp"
-            android:layout_height="35dp"
-            android:text="We are located in Nørresundby, Stationsvej 31 Aalborg" />
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="...located in Stationsvej 31, 9400 Nørresundby"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="338dp"
-        android:layout_height="216dp"
+        android:layout_width="416dp"
+        android:layout_height="272dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842">
+        app:layout_constraintVertical_bias="0.947">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="328dp"
-            android:layout_height="201dp"
-            app:srcCompat="@mipmap/hs" />
+            android:layout_width="439dp"
+            android:layout_height="283dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/delivery_with_logo_cut" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
