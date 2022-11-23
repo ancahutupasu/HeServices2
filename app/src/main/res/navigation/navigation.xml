@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/mobile_navigation"
+app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.heservices.HomeFragment"
+        android:label="Home"
+        />
+
+<fragment
+    android:id="@+id/nav_about"
+    android:name="com.example.heservices.AboutFragment"
+    android:label="About"
+     />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.heservices.ServicesFragment"
+        android:label="Services"
+        />
+    <fragment
+        android:id="@+id/nav_delivery"
+        android:name="com.example.heservices.DeliveryFragment"
+        android:label="Delivery"
+        />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.heservices.ContactFragment"
+        android:label="Contact"
+        />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.heservices.FeedbackFragment"
+        android:label="Feedback"
+        />
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.example.heservices.ReviewFragment"
+        android:label="Review"
+        />
+
+</navigation>
+
