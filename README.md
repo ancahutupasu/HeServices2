@@ -5,11 +5,21 @@ As an administrator, I want to be able to edit transport services, in order to g
 
 As an administrator, I want to be able to delete transport services, so the customers know about the services which are no longer available.
 
-As an administrator, I want to be able to view the transport services, in order to give the customers more options for transport services.
+As an administrator, I want to be able to view the transport services, in order to give the customers more options for transport services. Working
 
-As a visitor and customer, I want to be able to view the transport services, so i can see which service i want.
+As a visitor and customer, I want to be able to view the transport services, so i can see which service i want. Working 
 
-As a visitor and customer, I want to be able to view about the company, so that i know what company is about.
+As a visitor and customer, I want to be able to see the information of currior service, so that i can know what are the requirements in order if i want to have currior service from the company. Working
+
+As a visitor and customer, I want to be able to see the information of express service, so that i can know what are the requirements in order if i want to have express service from the company. Working
+
+As a visitor and customer, I want to be able to see the information of moving service, so that i can know how much weight is requireed and how many vans would be required. Working
+
+As a visitor and customer, I want to be able to see the price information, so that i know if its in my budget or not. 
+
+As a visitor and customer, I want to be able to view about the company, so that i know what company is about. Working
+
+As a visitor and customer, I want to be able to view the contact information, so that as a customer i can contact the company. Working
 
 As an administrator, I want to be able to add the information of transport vans, so that customers have idea about source of transport.
 
@@ -23,9 +33,7 @@ As a visitor and customer, I want to be able to view weight of each transport so
 
 As a visitor and customer, I want to be able to view pallets information, so that i get better idea.
 
-As an administrator, I want to be able to add the contact information, so that customer can contact.
-
-As a visitor or customer, I want to be able to view the contact information, so that i can contact if have any questions.
+As a visitor or customer, I want to be able to view the contact information, so that i can contact if have any questions. Working
 
 As an administrator, I want to be able to edit contact information, so that customer gets updated information.
 
@@ -33,9 +41,9 @@ As an administrator, I want to be able to delete contact information, so that if
 
 As a visitor and customer, I want to be able to see the delivery hours, so i have a better idea.
 
-As a visitor and customer, I want to be able to see the location of company, so that i can see if its near me.
+As a visitor and customer, I want to be able to see the location of company, so that i can see if its near me. Working
 
-As a visitor, I want to be able to see the delivery areas, so that i know if they can deliver to my place.
+As a visitor, I want to be able to see the delivery areas, so that i know if they can deliver to my place. Working
 
 Youtube link:
 
