@@ -7,45 +7,45 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="346dp"
-        android:layout_height="81dp"
+        android:layout_width="343dp"
+        android:layout_height="97dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215">
+        app:layout_constraintVertical_bias="0.176">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="83dp"
             android:layout_weight="1"
             android:text="Let us know your feedback"
-            android:textSize="24sp" />
+            android:textSize="34sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="317dp"
-        android:layout_height="117dp"
+        android:layout_width="225dp"
+        android:layout_height="120dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42">
+        app:layout_constraintVertical_bias="0.4">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="204dp"
+            android:layout_height="92dp">
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
-                android:layout_width="266dp"
-                android:layout_height="140dp"
+                android:layout_width="214dp"
+                android:layout_height="121dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -54,21 +54,39 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="215dp"
-        android:layout_height="102dp"
+        android:layout_width="134dp"
+        android:layout_height="81dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71">
+        app:layout_constraintVertical_bias="0.412">
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Submit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85">
+
+        <ImageView
+            android:id="@+id/image_feedback"
+            android:layout_width="321dp"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/feedback" />
     </LinearLayout>
 
 
