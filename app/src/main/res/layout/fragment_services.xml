@@ -39,7 +39,7 @@
             android:id="@+id/imageView4"
             android:layout_width="83dp"
             android:layout_height="49dp"
-            app:srcCompat="@mipmap/hs" />
+            app:srcCompat="@drawable/express" />
     </LinearLayout>
 
     <LinearLayout
@@ -75,7 +75,7 @@
             android:id="@+id/imageView5"
             android:layout_width="81dp"
             android:layout_height="54dp"
-            app:srcCompat="@mipmap/hs" />
+            app:srcCompat="@drawable/currior" />
     </LinearLayout>
 
     <LinearLayout
@@ -111,7 +111,7 @@
             android:id="@+id/imageView7"
             android:layout_width="89dp"
             android:layout_height="57dp"
-            app:srcCompat="@mipmap/hs" />
+            app:srcCompat="@drawable/moving" />
     </LinearLayout>
 
     <LinearLayout

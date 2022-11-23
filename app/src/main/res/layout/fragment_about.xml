@@ -26,50 +26,50 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="196dp"
-        android:layout_height="190dp"
+        android:layout_width="330dp"
+        android:layout_height="178dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.673"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447">
+        app:layout_constraintVertical_bias="0.425">
 
         <TextView
             android:id="@+id/main_text"
-            android:layout_width="174dp"
+            android:layout_width="318dp"
             android:layout_height="80dp"
             android:text="We are a transport company with trustworthy drivers. We deliver all over the europe." />
 
         <TextView
             android:id="@+id/start"
-            android:layout_width="171dp"
+            android:layout_width="316dp"
             android:layout_height="35dp"
             android:text="We started the company in 2009." />
 
         <TextView
             android:id="@+id/located"
-            android:layout_width="176dp"
+            android:layout_width="314dp"
             android:layout_height="35dp"
             android:text="We are located in Nørresundby, Stationsvej 31 Aalborg" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="169dp"
-        android:layout_height="142dp"
+        android:layout_width="338dp"
+        android:layout_height="216dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.753"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446">
+        app:layout_constraintVertical_bias="0.842">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="160dp"
-            android:layout_height="118dp"
+            android:layout_width="328dp"
+            android:layout_height="201dp"
             app:srcCompat="@mipmap/hs" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
