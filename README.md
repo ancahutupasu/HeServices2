@@ -53,3 +53,4 @@ images:Map taken from:
 https://www.veryhungrynomads.com/8-smallest-countries-in-europe-on-a-map/ 
 Currior: https://www.shutterstock.com/search/courier
 Express : https://www.freepik.com/free-photos-vectors/express-delivery
+Moving: https://depositphotos.com/stock-photos/moving-company.html
