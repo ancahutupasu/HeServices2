@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-public class AbilitiesFragment extends Fragment {
+public class ExpressFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_abilities, container, false);
+        return inflater.inflate(R.layout.fragment_express, container, false);
     }
 }
