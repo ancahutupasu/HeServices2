@@ -45,6 +45,11 @@ app:startDestination="@+id/nav_home">
         android:name="com.example.heservices.ReviewFragment"
         android:label="Review"
         />
+    <fragment
+        android:id="@+id/nav_express"
+        android:name="com.example.heservices.ExpressFragment"
+        android:label="Express"
+        />
 
 </navigation>
 
