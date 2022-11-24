@@ -44,14 +44,21 @@
             android:text="...picking up and delivering pallets with goods"
             android:textSize="16sp" />
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="...delivery in Denmark and all over Europe"
+            android:textSize="16sp" />
+
         <Space
             android:layout_width="match_parent"
-            android:layout_height="104dp" />
+            android:layout_height="52dp" />
 
         <ImageView
             android:id="@+id/imageView11"
             android:layout_width="match_parent"
-            android:layout_height="246dp"
+            android:layout_height="324dp"
             app:srcCompat="@drawable/currior" />
     </LinearLayout>
 
