@@ -6,57 +6,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:id="@+id/linearLayout11"
-        android:layout_width="299dp"
-        android:layout_height="91dp"
-        android:orientation="horizontal"
+        android:id="@+id/linearLayout9"
+        android:layout_width="317dp"
+        android:layout_height="226dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092">
+        app:layout_constraintVertical_bias="0.14">
 
         <TextView
             android:id="@+id/deliver"
             android:layout_width="281dp"
             android:layout_height="76dp"
-            android:text="Where we deliver"
+            android:text="Where?"
             android:textSize="34sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="385dp"
-        android:layout_height="349dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934">
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="wrap_content"
-            android:layout_height="322dp"
-            app:srcCompat="@drawable/europemap" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="243dp"
-        android:layout_height="113dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.292">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="We deliver all over europe within the given time. So if you are interested to send parcels with maximum weight of 1000kg, let us know. We would be happy to help you." />
+            android:layout_height="38dp"
+            android:text="...in Denmark" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="...all over Europe withing the giving time" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="...send parcels maximum 1000kg" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="363dp"
+        android:layout_height="326dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        app:srcCompat="@drawable/deliveryhs" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
