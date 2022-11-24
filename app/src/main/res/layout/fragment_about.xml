@@ -26,8 +26,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="338dp"
-        android:layout_height="191dp"
+        android:layout_width="362dp"
+        android:layout_height="260dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,10 +59,23 @@
 
         <TextView
             android:id="@+id/located"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
             android:text="...located in Stationsvej 31, 9400 Nørresundby"
             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vans"
+            android:layout_width="323dp"
+            android:layout_height="38dp"
+            android:text="6 vans each holding weight maximum 1000kg. " />
+
+        <TextView
+            android:id="@+id/vans_pallets"
+            android:layout_width="310dp"
+            android:layout_height="35dp"
+            android:text="Each van can hold maximum 9 pallets " />
+
     </LinearLayout>
 
     <LinearLayout
