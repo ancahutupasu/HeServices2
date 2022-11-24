@@ -23,6 +23,13 @@
             android:layout_height="76dp"
             android:text="Where we deliver"
             android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/delivery_hours"
+            android:layout_width="281dp"
+            android:layout_height="76dp"
+            android:text="Delivery hours are flexible. We are available monday to sunday anytime. "
+            android:textSize="34sp" />
     </LinearLayout>
 
     <LinearLayout
