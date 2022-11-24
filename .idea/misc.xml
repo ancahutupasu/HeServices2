@@ -7,7 +7,7 @@
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_contact.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_contact.xml" value="0.4" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_currior.xml" value="0.4" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_delivery.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_express.xml" value="0.36666666666666664" />
@@ -17,6 +17,8 @@
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_review.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_services.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/navigation_drawer_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/menu/appbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/menu/bottom_nav.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ravne/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/background_side_nav_bar.xml" value="0.1" />
         <entry key="..\:/Users/ravne/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Users/ravne/AndroidStudioProjects/HeServices2/app/src/main/res/layout/activity_main.xml" value="0.25" />
