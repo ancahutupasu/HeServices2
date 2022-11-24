@@ -10,6 +10,7 @@ As a visitor and customer, I want to be able to see the information of express s
 
 As a visitor and customer, I want to be able to see the information of moving service, so that i can know how much weight is requireed and how many vans would be required. Working
 
+As a visitor and customer, I want to be able to add account, so i dont it would be easier for me to go through all pages. Progress
 
 As a visitor and customer, I want to be able to view about the company, so that i know what company is about. Working
 
