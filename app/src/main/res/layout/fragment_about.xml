@@ -27,6 +27,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout18"
         android:layout_width="362dp"
         android:layout_height="260dp"
         android:orientation="vertical"
@@ -80,21 +81,37 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="416dp"
-        android:layout_height="272dp"
+        android:id="@+id/linearLayout16"
+        android:layout_width="397dp"
+        android:layout_height="215dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947">
+        app:layout_constraintVertical_bias="0.858">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="439dp"
-            android:layout_height="283dp"
+            android:layout_width="395dp"
+            android:layout_height="195dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/delivery_with_logo_cut" />
+
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
