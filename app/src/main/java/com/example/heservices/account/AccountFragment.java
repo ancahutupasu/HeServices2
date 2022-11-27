@@ -25,5 +25,6 @@ public class AccountFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_currior, container, false);
     }
 
+
 }
 
