@@ -68,10 +68,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="0.967"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.293">
+        app:layout_constraintVertical_bias="0.283">
 
         <EditText
             android:id="@+id/editTextTextEmailAddress3"
@@ -83,8 +83,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="217dp"
-        android:layout_height="74dp"
+        android:layout_width="224dp"
+        android:layout_height="65dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
