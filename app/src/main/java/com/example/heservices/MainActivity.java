@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_feedback,
                 R.id.nav_review,
                 R.id.nav_services,
-                R.id.nav_settings
+                R.id.nav_account
         )
                 .setOpenableLayout(drawerLayout)
                 .build();
