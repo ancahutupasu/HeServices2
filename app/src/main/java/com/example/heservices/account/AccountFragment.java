@@ -21,22 +21,9 @@ public class AccountFragment extends Fragment {
         return new AccountFragment();
     }
 
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
-
-        View rootView = inflater.inflate(R.layout.fragment_account, container, false);
-
-        Button button=(Button)rootView.findViewById(R.id.signup);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction fr=getFragmentManager().beginTransaction();
-                fr.replace(R.id.container,new ServicesFragment());
-                fr.commit();
-            }
-        });
-        return rootView;
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_currior, container, false);
     }
+
 }
 
