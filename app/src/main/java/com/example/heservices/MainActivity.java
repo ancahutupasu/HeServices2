@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     NavigationView navigationDrawer;
     BottomNavigationView bottomNavigationView;
     Toolbar toolbar;
-    private UserViewModel userViewModel;
 
 
 
