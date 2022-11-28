@@ -5,16 +5,19 @@
       <map>
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/drawable/round_border.xml" value="0.307" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_account.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_account.xml" value="0.35714285714285715" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_contact.xml" value="0.4" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_currior.xml" value="0.4" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_delivery.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_express.xml" value="0.4" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_feedback.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_logout.xml" value="0.264" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_moving.xml" value="0.4" />
+        <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_register.xml" value="0.264" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_review.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/fragment_services.xml" value="0.264" />
         <entry key="..\:/Users/Anca/AndroidStudioProjects/HeServices2/app/src/main/res/layout/navigation_drawer_header.xml" value="0.36666666666666664" />
