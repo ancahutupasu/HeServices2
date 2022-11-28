@@ -50,6 +50,11 @@ app:startDestination="@+id/nav_home">
         android:name="com.example.heservices.express.ExpressFragment"
         android:label="Express"
         />
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.heservices.account.AccountFragment"
+        android:label="Account"
+        />
 
 </navigation>
 
