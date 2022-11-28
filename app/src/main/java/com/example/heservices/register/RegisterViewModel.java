@@ -1,4 +1,6 @@
 package com.example.heservices.register;
 
-public class RegisterViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class RegisterViewModel extends ViewModel {
 }

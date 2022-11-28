@@ -1,4 +1,6 @@
 package com.example.heservices.logout;
 
-public class LogoutViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class LogoutViewModel extends ViewModel {
 }
