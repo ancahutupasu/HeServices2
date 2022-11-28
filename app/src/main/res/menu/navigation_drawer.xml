@@ -37,7 +37,7 @@
             android:title="Review" />
         <item
             android:id="@+id/nav_account"
-            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
             android:title="Account" />
     </group>
 </menu>
