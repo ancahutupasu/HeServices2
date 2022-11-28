@@ -7,33 +7,25 @@
 
     <EditText
         android:id="@+id/emailLogIn"
-        android:layout_width="292dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="233dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="470dp"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
         android:background="@drawable/round_border2"
-        android:drawableStart="@android:drawable/sym_action_email"
+        android:drawableStart="@android:drawable/ic_dialog_email"
         android:ems="10"
         android:hint="@string/Email"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.202" />
 
     <EditText
-        android:id="@+id/Password"
-        android:layout_width="291dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="399dp"
+        android:id="@+id/password"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
         android:background="@drawable/round_border2"
         android:drawableStart="@android:drawable/ic_lock_idle_lock"
         android:ems="10"
@@ -42,42 +34,35 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintVertical_bias="0.328" />
 
     <TextView
         android:id="@+id/forgotPassword"
-        android:layout_width="128dp"
+        android:layout_width="111dp"
         android:layout_height="48dp"
-        android:layout_marginStart="267dp"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="13dp"
         android:text="@string/forgot_password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:onClick="@string/forgot_password" />
+        app:layout_constraintVertical_bias="0.456" />
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/round_border2"
-        android:onClick="@string/Login"
         android:padding="10dp"
         android:text="@string/Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/register_user"
@@ -86,24 +71,22 @@
         android:text="@string/or"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.674" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/round_border2"
-        android:onClick="@string/redirectToRegister"
         android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758" />
+        app:layout_constraintVertical_bias="0.742" />
 
     <ImageView
         android:id="@+id/googleLogin"
@@ -115,60 +98,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841"
-        app:srcCompat="@drawable/google"
-        tools:onClick="@string/onGoogleLogin" />
+        app:layout_constraintVertical_bias="0.83"
+        app:srcCompat="@drawable/google" />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.691"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="56dp"
-        android:layout_height="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.302"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.691"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432"
-        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="44dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -89,7 +89,7 @@
         android:id="@+id/floating"
         android:layout_width="67dp"
         android:layout_height="56dp"
-        android:src="@drawable/ic_baseline_settings_24"
+        android:src="@drawable/ic_baseline_supervisor_account_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.932"
