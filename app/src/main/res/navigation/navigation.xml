@@ -60,6 +60,11 @@ app:startDestination="@+id/nav_home">
         android:name="com.example.heservices.register.RegisterFragment"
         android:label="Register"
         />
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.example.heservices.signup.SignupFragment"
+        android:label="Signup"
+        />
 
 </navigation>
 

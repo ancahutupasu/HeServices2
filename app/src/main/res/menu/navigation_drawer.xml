@@ -43,5 +43,9 @@
             android:id="@+id/nav_register"
             android:icon="@drawable/ic_baseline_supervisor_account_24"
             android:title="Register" />
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="Signup" />
     </group>
 </menu>
