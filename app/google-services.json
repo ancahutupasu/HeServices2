@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199096202589",
+    "project_id": "heservices-f0ce0",
+    "storage_bucket": "heservices-f0ce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199096202589:android:6fa1438262f5a92bb2e4b4",
+        "android_client_info": {
+          "package_name": "com.example.heservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199096202589-do95cv58tkh8jv4adtts5ihe9pq0fq95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr4LNSfhzR8kXQ-sQF7b8_QEvmCB2jztE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199096202589-do95cv58tkh8jv4adtts5ihe9pq0fq95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
