@@ -9,10 +9,8 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
-import com.example.heservices.MainActivity;
 import com.example.heservices.R;
-import com.example.heservices.account.AccountFragment;
+
 
 public class AboutFragment extends Fragment {
     Button floating;
