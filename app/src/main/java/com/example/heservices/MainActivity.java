@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_review,
                 R.id.nav_services,
                 R.id.nav_account,
-                R.id.nav_setting
+                R.id.nav_setting,
+                R.id.nav_register
         )
                 .setOpenableLayout(drawerLayout)
                 .build();
