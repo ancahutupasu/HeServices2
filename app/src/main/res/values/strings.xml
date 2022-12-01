@@ -13,6 +13,11 @@
     <string name="confirmPassword">Confirm Password</string>
     <string name="existing_user">Already have an account?</string>
     <string name="toLogout">To Logout</string>
+    <string name="emailSignUp">Email</string>
+    <string name="passwordSignUp">Password</string>
+    <string name="phoneNo">Tel</string>
+    <string name="usernameSignUp">username</string>
+    <string name="nameSignUp">Full Name</string>
 
 
 </resources>
