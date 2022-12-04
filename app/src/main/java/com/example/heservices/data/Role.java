@@ -1,4 +1,6 @@
 package com.example.heservices.data;
 
-public class Role {
+public enum Role {
+    MEMBER,
+    ADMIN
 }

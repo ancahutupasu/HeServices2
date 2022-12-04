@@ -46,7 +46,7 @@ app:startDestination="@+id/nav_home">
         android:label="Express delivery" />
     <fragment
         android:id="@+id/nav_signin"
-        android:name="com.example.heservices.signiN.signInFragment"
+        android:name="com.example.heservices.signiN.SignInFragment"
         android:label="Sign in" />
     <fragment
         android:id="@+id/nav_signup"

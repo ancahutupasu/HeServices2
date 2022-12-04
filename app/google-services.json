@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "199096202589",
-    "project_id": "heservices-f0ce0",
-    "storage_bucket": "heservices-f0ce0.appspot.com"
+    "project_number": "902832203167",
+    "project_id": "heservices-b2831",
+    "storage_bucket": "heservices-b2831.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:199096202589:android:6fa1438262f5a92bb2e4b4",
+        "mobilesdk_app_id": "1:902832203167:android:aa0bf6e132c78c89a009aa",
         "android_client_info": {
           "package_name": "com.example.heservices"
         }
       },
       "oauth_client": [
         {
-          "client_id": "199096202589-do95cv58tkh8jv4adtts5ihe9pq0fq95.apps.googleusercontent.com",
+          "client_id": "902832203167-jvcel5amar5je8ncnjtobvhno4a2k6sk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDr4LNSfhzR8kXQ-sQF7b8_QEvmCB2jztE"
+          "current_key": "AIzaSyCIAQ9Oy8Q0WnJH4qES4yC3rW_FcRamUEs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "199096202589-do95cv58tkh8jv4adtts5ihe9pq0fq95.apps.googleusercontent.com",
+              "client_id": "902832203167-jvcel5amar5je8ncnjtobvhno4a2k6sk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -10,19 +10,19 @@ public class ReviewRepository {
     private UserDAO userDAO;
     private static ReviewRepository instance;
 
-  //  public static ReviewRepository getInstance(Application app)
-    // {
-  //     if(instance == null)
-    //     {
-    //        instance = new ReviewRepository(app);
-    //    }
-    //   return instance;
-    // }
+    public static ReviewRepository getInstance(Application app)
+    {
+     if(instance == null)
+         {
+            instance = new ReviewRepository(app);
+        }
+       return instance;
+     }
 
-  //  public ReviewRepository(Application application)
-    // {
-  //      reviewDAO = ReviewDAO.getInstance(application);
-     //   userDAO = UserDAO.getInstance(application);
-   // }
+    public ReviewRepository(Application application)
+     {
+       reviewDAO = ReviewDAO.getInstance(application);
+       userDAO = UserDAO.getInstance(application);
+   }
 
 }
