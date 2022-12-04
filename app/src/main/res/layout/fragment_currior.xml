@@ -6,8 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:layout_width="376dp"
-        android:layout_height="653dp"
+        android:layout_width="323dp"
+        android:layout_height="604dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
         <TextView
             android:id="@+id/currior"
             android:layout_width="match_parent"
-            android:layout_height="104dp"
+            android:layout_height="101dp"
             android:text="What do we offer:"
             android:textSize="34sp" />
 
@@ -40,13 +40,9 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="87dp"
             android:text="...picking up and delivering pallets with goods"
             android:textSize="16sp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="104dp" />
 
         <ImageView
             android:id="@+id/imageView11"

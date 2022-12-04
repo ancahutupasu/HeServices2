@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-21dp">
 
     <LinearLayout
         android:id="@+id/linearLayout7"
@@ -14,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14">
+        app:layout_constraintVertical_bias="0.11">
 
         <TextView
             android:id="@+id/text1"
@@ -22,7 +24,9 @@
             android:layout_height="wrap_content"
             android:text="You can contact us any time. "
             android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="77dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206">
+        app:layout_constraintVertical_bias="0.175">
 
         <TextView
             android:id="@+id/text3"
@@ -43,7 +47,9 @@
             android:layout_height="31dp"
             android:text="We are here for you !"
             android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="121dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -56,13 +62,15 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357">
+        app:layout_constraintVertical_bias="0.326">
 
         <ImageView
             android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            app:srcCompat="@drawable/ic_baseline_email_24" />
+            app:srcCompat="@drawable/ic_baseline_email_24"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="223dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -74,14 +82,16 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736">
+        app:layout_constraintVertical_bias="0.706">
 
         <ImageView
             android:id="@+id/phoneImage"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_baseline_call_24" />
+            app:srcCompat="@drawable/ic_baseline_call_24"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="483dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -94,14 +104,16 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558">
+        app:layout_constraintVertical_bias="0.527">
 
         <ImageView
             android:id="@+id/locationImage"
             android:layout_width="24dp"
             android:layout_height="38dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/location_ppin" />
+            app:srcCompat="@drawable/location_ppin"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="361dp" />
 
     </LinearLayout>
 
@@ -114,7 +126,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832">
+        app:layout_constraintVertical_bias="0.8">
 
         <Button
             android:id="@+id/tel1"
@@ -131,12 +143,16 @@
             android:phoneNumber="true"
             android:text="+4531000000"
             android:textColor="@android:color/black"
-            app:iconPadding="0dp" />
+            app:iconPadding="0dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="542dp" />
 
         <Space
             android:layout_width="24dp"
             android:layout_height="46dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="194dp"
+            tools:layout_editor_absoluteY="542dp" />
 
         <Button
             android:id="@+id/tel2"
@@ -154,7 +170,9 @@
             android:paddingBottom="0dp"
             android:text="+4571000000"
             android:textColor="#000000"
-            app:iconPadding="0dp" />
+            app:iconPadding="0dp"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="543dp" />
 
     </LinearLayout>
 
@@ -170,7 +188,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.874" />
 
     <Button
         android:id="@+id/email"
@@ -185,7 +203,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
+        app:layout_constraintVertical_bias="0.408"
         app:layout_marginBaseline="0dp" />
 
     <Button
@@ -200,6 +218,6 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.59" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

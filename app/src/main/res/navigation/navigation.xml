@@ -43,8 +43,7 @@ app:startDestination="@+id/nav_home">
     <fragment
         android:id="@+id/nav_express"
         android:name="com.example.heservices.express.ExpressFragment"
-        android:label="Express"
-        />
+        android:label="Express delivery" />
     <fragment
         android:id="@+id/nav_signin"
         android:name="com.example.heservices.signiN.signInFragment"
@@ -55,13 +54,13 @@ app:startDestination="@+id/nav_home">
         android:label="Signup"
         />
     <fragment
-        android:id="@+id/nav_signout"
-        android:name="com.example.heservices.logout.LogoutFragment"
-        android:label="LogoutFragment" />
-    <fragment
         android:id="@+id/nav_currior"
         android:name="com.example.heservices.currior.CurriorFragment"
-        android:label="CurriorFragment" />
+        android:label="Currior" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.heservices.logout.LogoutFragment"
+        android:label="Logout" />
 
 </navigation>
 

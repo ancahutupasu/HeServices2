@@ -16,7 +16,7 @@
         <item
             android:id="@+id/nav_express"
             android:icon="@android:drawable/ic_lock_idle_alarm"
-            android:title="Express delivery" />
+            android:title="Express" />
         <item
             android:id="@+id/nav_review"
             android:icon="@drawable/ic_baseline_rate_review_24"
@@ -49,6 +49,6 @@
         <item
             android:id="@+id/nav_logout"
             android:icon="?attr/actionModeCloseDrawable"
-            android:title="Logout" />
+            android:title="Log out" />
     </group>
 </menu>

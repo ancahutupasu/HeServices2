@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <LinearLayout
-        android:layout_width="365dp"
-        android:layout_height="632dp"
+        android:layout_width="308dp"
+        android:layout_height="605dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,9 +22,10 @@
         <TextView
             android:id="@+id/fast"
             android:layout_width="345dp"
-            android:layout_height="81dp"
+            android:layout_height="99dp"
             android:text="EXPRESS SERVICE"
             android:textSize="34sp" />
+
         <TextView
             android:id="@+id/fastHome"
             android:layout_width="match_parent"
@@ -41,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="41dp"
             android:text="...fast picking up and fast delivering pallets with goods" />
+
         <TextView
             android:id="@+id/fastDk"
             android:layout_width="match_parent"
