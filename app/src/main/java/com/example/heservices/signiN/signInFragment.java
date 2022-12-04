@@ -1,4 +1,4 @@
-package com.example.heservices.account;
+package com.example.heservices.signiN;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,9 +15,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.heservices.R;
 
-public class AccountFragment extends Fragment implements View.OnClickListener {
+public class signInFragment extends Fragment implements View.OnClickListener {
 
-    private AccountViewModel mViewModel;
+    private singInViewModel mViewModel;
 
     EditText emailLogIn;
     EditText password;
@@ -28,10 +28,10 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
     ImageView googleLogin;
     View view;
 
-    public static AccountFragment newInstance() { return new AccountFragment();}
+    public static signInFragment newInstance() { return new signInFragment();}
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_account, container, false);
+        View view = inflater.inflate(R.layout.fragment_signin, container, false);
 
         emailLogIn = view.findViewById(R.id.emailLogIn);
         password = view.findViewById(R.id.password);

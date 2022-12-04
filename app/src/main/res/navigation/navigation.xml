@@ -36,11 +36,6 @@ app:startDestination="@+id/nav_home">
         />
 
     <fragment
-        android:id="@+id/nav_feedback"
-        android:name="com.example.heservices.feedback.FeedbackFragment"
-        android:label="Feedback"
-        />
-    <fragment
         android:id="@+id/nav_review"
         android:name="com.example.heservices.review.ReviewFragment"
         android:label="Review"
@@ -51,10 +46,9 @@ app:startDestination="@+id/nav_home">
         android:label="Express"
         />
     <fragment
-        android:id="@+id/nav_account"
-        android:name="com.example.heservices.account.AccountFragment"
-        android:label="Account"
-        />
+        android:id="@+id/nav_signin"
+        android:name="com.example.heservices.signiN.signInFragment"
+        android:label="Sign in" />
     <fragment
         android:id="@+id/nav_register"
         android:name="com.example.heservices.register.RegisterFragment"
