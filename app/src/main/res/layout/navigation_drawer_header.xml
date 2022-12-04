@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="HS SERVICES"
+        android:text="HeServices"
         android:textSize="40sp" />
 
 </LinearLayout>

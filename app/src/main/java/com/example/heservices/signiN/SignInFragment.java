@@ -59,69 +59,69 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
         return view;
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-       signInViewModel = new ViewModelProvider(this).get(SignInViewModel.class);
+    // @Override
+    // public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+    //    super.onActivityCreated(savedInstanceState);
+    //  signInViewModel = new ViewModelProvider(this).get(SignInViewModel.class);
 
-        if(loginButton != null)
-        {
-            loginButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    try{
-                        signInViewModel.singIn((Activity) view.getContext(),emailLogIn.getText().toString(), password.getText().toString());
-                    }
-                    catch (NullPointerException e)
-                    {
-                        Toast.makeText(getActivity(), "Fields cannot be empty...", Toast.LENGTH_SHORT).show();
-                    }
-                }
-            });
-        }
+    //   if(loginButton != null)
+    //    {
+    //        loginButton.setOnClickListener(new View.OnClickListener() {
+    //           @Override
+    //           public void onClick(View view) {
+    //              try{
+    //                   signInViewModel.singIn((Activity) view.getContext(),emailLogIn.getText().toString(), password.getText().toString());
+    //               }
+    //               catch (NullPointerException e)
+    //              {
+    //                   Toast.makeText(getActivity(), "Fields cannot be empty...", Toast.LENGTH_SHORT).show();
+    //               }
+    //           }
+    //       });
+    //   }
 
-        if(registerButton != null)
-        {
-            registerButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view)  {
-                    signInViewModel.setSignInPressed(false);
-                }
-            });
-        }
+    //   if(registerButton != null)
+    //   {
+    //       registerButton.setOnClickListener(new View.OnClickListener() {
+    //          @Override
+    //           public void onClick(View view)  {
+    //               signInViewModel.setSignInPressed(false);
+    //            }
+    //       });
+    //   }
 
-        forgotPassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                signInViewModel.forgotPassword(view);
-            }
-        });
+    //   forgotPassword.setOnClickListener(new View.OnClickListener() {
+    //       @Override
+    //        public void onClick(View view) {
+    //           signInViewModel.forgotPassword(view);
+    //       }
+    //   });
 
-        googleLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signIn();
-            }
-        });
-    }
+    //   googleLogin.setOnClickListener(new View.OnClickListener() {
+    //       @Override
+    //      public void onClick(View v) {
+    //           signIn();
+    //       }
+    //   });
+//   }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+    // @Override
+    //  public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    //     super.onActivityResult(requestCode, resultCode, data);
 
-        if(requestCode == RC_SIGN_IN)
-        {
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                GoogleSignInAccount account = task.getResult(ApiException.class);
-                firebaseAuthWithGoogle(account);
-            }
-            catch (ApiException e)
-            {
-                Toast.makeText(getContext(),e.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
+    //    if(requestCode == RC_SIGN_IN)
+    //   {
+    //       Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+    //       try {
+    //          GoogleSignInAccount account = task.getResult(ApiException.class);
+    //          firebaseAuthWithGoogle(account);
+    //      }
+    //       catch (ApiException e)
+    //       {
+    //           Toast.makeText(getContext(),e.getMessage(), Toast.LENGTH_SHORT).show();
+    //      }
+    //   }
+    //}
 
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount account) {

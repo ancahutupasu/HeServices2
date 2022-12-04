@@ -63,4 +63,7 @@ public class ReviewDAO {
         this.review.setValue(review);
     }
 
+    //public MutableLiveData<Na> getNameLiveData() {
+    //  return name;
+    //}
 }
