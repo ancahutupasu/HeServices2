@@ -41,8 +41,8 @@ https://youtu.be/YUT46qT8kWk
 
 - our app it is for an existing bussiness, which offers delivery services;
 - the owner asked for our help in making the application;
-- - also, having an app will help with the marketing and getting more customers;
-the app will be used by the owner of the bussiness and customers.
+- also, having an app will help with the marketing and getting more customers;
+- the app will be used by the owner of the bussiness and customers.
 
 # References:
 
