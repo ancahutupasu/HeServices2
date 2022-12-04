@@ -76,64 +76,64 @@ public class SignupFragment extends Fragment {
 
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
+  //  @Override
+    //   public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+    //    super.onActivityCreated(savedInstanceState);
 
-        signupViewModel = new ViewModelProvider(this).get(SignupViewModel.class);
+    //   signupViewModel = new ViewModelProvider(this).get(SignupViewModel.class);
 
-        if (register != null) {
-            register.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (getView() != null) {
-                        try{
-                            signupViewModel.registerAccount((Activity) getView().getContext(), emailSignUp.getText().toString(), passwordSignUp.getText().toString());
-                        }
-                        catch (NullPointerException e)
-                        {
-                            Toast.makeText(getActivity(), "Fields cannot be empty..", Toast.LENGTH_SHORT).show();
-                        }
+    //   if (register != null) {
+    //       register.setOnClickListener(new View.OnClickListener() {
+    //          @Override
+    //          public void onClick(View v) {
+    //              if (getView() != null) {
+    //                  try{
+    //                      signupViewModel.registerAccount((Activity) getView().getContext(), emailSignUp.getText().toString(), passwordSignUp.getText().toString());
+    //                   }
+    //                   catch (NullPointerException e)
+    //                  {
+    //                      Toast.makeText(getActivity(), "Fields cannot be empty..", Toast.LENGTH_SHORT).show();
+    //                  }
+//
+    //               }
+    //           }
+    //      });
+    //   }
+    //    if (loginBut != null) {
+    //        loginBut.setOnClickListener(new View.OnClickListener() {
+    //          @Override
+    //           public void onClick(View view) {
+    //               signupViewModel.setSignInPressed(true);
+    //            }
+    //        });
+    //   }
 
-                    }
-                }
-            });
-        }
-        if (loginBut != null) {
-            loginBut.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    signupViewModel.setSignInPressed(true);
-                }
-            });
-        }
 
+    //   googleLog.setOnClickListener(new View.OnClickListener() {
+    //       @Override
+    //       public void onClick(View v) {
+    //           signIn();
+    //       }
+    //   });
+    // }
 
-        googleLog.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signIn();
-            }
-        });
-    }
+    // @Override
+    //public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    //    super.onActivityResult(requestCode, resultCode, data);
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if(requestCode == RC_SIGN_IN)
-        {
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                GoogleSignInAccount account = task.getResult(ApiException.class);
-                firebaseAuthWithGoogle(true,account);
-            }
-            catch (ApiException e)
-            {
-                Toast.makeText(getContext(),e.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
+    //   if(requestCode == RC_SIGN_IN)
+    //   {
+    //      Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+    //       try {
+    //           GoogleSignInAccount account = task.getResult(ApiException.class);
+    //          firebaseAuthWithGoogle(true,account);
+    //       }
+    //      catch (ApiException e)
+    //       {
+    //           Toast.makeText(getContext(),e.getMessage(), Toast.LENGTH_SHORT).show();
+    //       }
+    //   }
+    // }
 
     private void firebaseAuthWithGoogle(boolean isRegister,GoogleSignInAccount account) {
         signupViewModel.firebaseAuthWithGoogle(isRegister,account,getActivity());

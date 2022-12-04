@@ -1,6 +1,8 @@
 package com.example.heservices.data;
 
-    public class Review {
+import java.util.ArrayList;
+
+public class Review {
         public String userUID;
         public String description;
         public float rate;
@@ -19,37 +21,22 @@ package com.example.heservices.data;
             this.rate = -1;
         }
 
-        public String getUserUID() {
-            return userUID;
-        }
+        public String getUserUID() {return userUID;}
 
-        public void setUserUID(String userUID) {
-            this.userUID = userUID;
-        }
+        public void setUserUID(String userUID) {this.userUID = userUID;}
 
-        public String getDescription() {
-            return description;
-        }
+        public String getDescription() {return description;}
 
-        public int getUniqID() {
-            return uniqID;
-        }
+        public int getUniqID() {return uniqID;}
 
-        public void setUniqID(int uniqID) {
-            this.uniqID = uniqID;
-        }
+        public void setUniqID(int uniqID) {this.uniqID = uniqID;}
 
-        public void setDescriptions(String description) {
-            this.description = description;
-        }
+        public void setDescriptions(String description) {this.description = description;}
 
-        public float getRate() {
-            return rate;
-        }
+        public float getRate() {return rate;}
 
-        public void setRate(float rate) {
-            this.rate = rate;
-        }
+        public void setRate(float rate) {this.rate = rate;}
+
     }
 
 

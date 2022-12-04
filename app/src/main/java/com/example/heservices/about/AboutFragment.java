@@ -21,32 +21,32 @@ public class AboutFragment extends Fragment {
 
     private AboutViewModel mViewModel;
 
-    TextView about;
-    TextView main_text;
-    TextView textView2;
-    TextView start;
-    TextView located;
-    ImageView imageView3;
-    Button floating;
-    View view;
+    //  TextView about;
+    //  TextView main_text;
+    //  TextView textView2;
+    // TextView start;
+    // TextView located;
+    //  ImageView imageView3;
+    // Button floating;
+    // View view;
 
-    public static AboutFragment newInstance() {
-        return new AboutFragment();
-    }
+    // public static AboutFragment newInstance() {
+    //    return new AboutFragment();
+    //  }
 
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_about, container, false);
+      public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_about, container, false);
 
-        about = view.findViewById(R.id.about);
-        main_text = view.findViewById(R.id.main_text);
-        textView2 = view.findViewById(R.id.textView2);
-        start = view.findViewById(R.id.start);
-        located = view.findViewById(R.id.located);
-        imageView3 = view.findViewById(R.id.imageView3);
-        floating = view.findViewById(R.id.floating);
+    //    about = view.findViewById(R.id.about);
+    //    main_text = view.findViewById(R.id.main_text);
+    //    textView2 = view.findViewById(R.id.textView2);
+    //    start = view.findViewById(R.id.start);
+    //    located = view.findViewById(R.id.located);
+    //    imageView3 = view.findViewById(R.id.imageView3);
+    //    floating = view.findViewById(R.id.floating);
 
-        return view;
-    }
+    //   return view;
+    //   }
 
     //   @Override
     //public void onActivityCreated(@Nullable Bundle saveInstanceState) {
@@ -64,6 +64,7 @@ public class AboutFragment extends Fragment {
 
     //   private FragmentManager getSupportFragmentManager() {
     //   }
+}
 }
 
 //private Fragment fragment_signin;
