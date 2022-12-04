@@ -17,6 +17,7 @@ package com.example.heservices.data;
         fullName = null;
         phone = null;
         role = Role.MEMBER;
+        role = Role.ADMIN;
     }
 
     public User(Role role, String uid, String userName, String email, String phone, int reviews, String fullName) {
