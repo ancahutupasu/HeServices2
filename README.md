@@ -1,4 +1,4 @@
-# HSServices2
+# HeServices2
 
 # Critical priority
 1.	As a member and administrator, I want to be able to view the delivery services, to get the overview of transport services.
